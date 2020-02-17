@@ -3,7 +3,7 @@
 Red 21 has a shitty datasource output that just gives html
 It's a public url
 
-Deploy this to heroku and set the environment variable:
+Deploy this to heroku and set the environment variable to your generated datasource link from Red21's settings:
 
 `RED21_DATA_SOURCE=https://micf.api.red61.com.au/micf/reports/data?token=<yourtoken>`
 
