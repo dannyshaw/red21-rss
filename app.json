@@ -1,0 +1,6 @@
+{
+  "name": "red61 rss feed",
+  "description": "Convert a Red61 Datasource to an RSS Feed for ifttt, etc.",
+  "repository": "https://github.com/dannyshaw/red21-rss",
+  "keywords": ["flask", "heroku", "red21"]
+}
