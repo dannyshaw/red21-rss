@@ -55,23 +55,5 @@ def produce_feed():
 
 
 if __name__ == '__main__':
-
     app.run()
 
-# def upload_to_s3(episodes):
-#     for index, ep in enumerate(episodes):
-#         upload_file(join(FILES, ep), 'danny.podcasts.seinfeld', ep)
-
-# def rename_files():
-#     FILES = '/home/danny/Downloads/audio'
-#     episodes = [f for f in listdir(FILES) if isfile(join(FILES, f))]
-#     for ep in episodes:
-#         file_name = join(FILES, ep)
-#         new_name = (ep.replace(' - ',
-#                                '-').replace(' ', '-').replace('(', '').replace(
-#                                    ')', '').replace(',-', '-').lower())
-#         rename(file_name, join(FILES, new_name))
-
-# episodes = sorted([f for f in listdir(FILES) if isfile(join(FILES, f))])
-# # upload_to_s3(episodes)
-# generate_feed_from_episodes(episodes)
